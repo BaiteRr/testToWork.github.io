@@ -640,6 +640,17 @@ table {
     color: #fff;
     font-size: 20px; } }
 
+.menu .border {
+  position: absolute;
+  width: 620px;
+  height: 1px;
+  left: 916px;
+  top: 86px;
+  background: #FFFFFF; }
+  @media (max-width: 1700px) {
+    .menu .border {
+      display: none; } }
+
 .dog__img {
   position: absolute !important;
   width: 50%;
@@ -673,6 +684,16 @@ table {
     .catNDog__img {
       width: 50%;
       height: 40%; } }
+
+.catNDog__glasses {
+  position: absolute !important;
+  top: 385px;
+  right: 585px;
+  width: 107.8px;
+  height: 107.8px; }
+  @media (max-width: 1700px) {
+    .catNDog__glasses {
+      display: none; } }
 
 .cloud__first {
   position: absolute;
@@ -772,7 +793,59 @@ table {
     .second-block {
       margin-top: 680px; } }
 
-.header__row, .logo, .menu__list {
+.second .second-screen {
+  width: 100%;
+  margin-top: 190px;
+  justify-content: center;
+  align-items: center; }
+  .second .second-screen:nth-child(2) {
+    margin-top: 10px; }
+  @media (max-width: 1180px) {
+    .second .second-screen {
+      flex-wrap: wrap; } }
+  @media (max-width: 1700px) {
+    .second .second-screen {
+      margin-top: -50px; } }
+
+.info__text {
+  padding-top: 18px;
+  width: 200px;
+  font-family: 'ProximaNova';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000; }
+
+@media (max-width: 761px) {
+  .info {
+    padding: 30px 10px; } }
+
+.paw {
+  margin: -130px 50px 0 90px; }
+  @media (max-width: 638px) {
+    .paw__first {
+      display: none;
+      position: absolute; } }
+  .paw__second {
+    margin: -15px 13px 0 20px; }
+    @media (max-width: 638px) {
+      .paw__second {
+        display: none;
+        position: absolute; } }
+  @media (max-width: 638px) {
+    .paw__third {
+      display: none;
+      position: absolute; } }
+  @media (max-width: 638px) {
+    .paw {
+      margin: 0; } }
+
+.footer {
+  padding: 50px 0; }
+
+.header__row, .logo, .menu__list, .second .second-screen, .paw {
   display: flex;
   font-size: 0; }
 
