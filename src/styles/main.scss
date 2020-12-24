@@ -1,0 +1,10 @@
+@import "~normalize.css";
+@import './null.scss';
+@import './ibg/ibg.scss';
+@import './fonts/proximaNova.css';
+@import './firstScreen/firstScreen.scss'; 
+
+%flexbox {
+    display: flex;
+    font-size: 0;
+}
